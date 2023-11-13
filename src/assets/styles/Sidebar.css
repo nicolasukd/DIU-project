@@ -1,0 +1,7 @@
+
+
+.Sidebar {
+    align-content: space-between;
+    display: grid;
+    position: sticky;
+}

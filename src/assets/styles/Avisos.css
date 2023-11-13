@@ -1,0 +1,11 @@
+.container {
+    padding: 20px;
+    display: grid;
+}
+.row {
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
