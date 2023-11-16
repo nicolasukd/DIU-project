@@ -6,7 +6,9 @@
 
 .Sidebar {
   height: 90vh;
-  position: static;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .App {
@@ -44,6 +46,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
