@@ -19,6 +19,7 @@ function App() {
           <Route path="/avisos" element={<Avisos />} />
           <Route path="/gastosComunes" element={<GastosComunes />} />
           <Route path="/espaciosComunes" element={<EspaciosComunes />} />
+          <Route path="/espaciosComunes/:horarios" element={<seleccionarHorario />} />
           <Route path="/contact" element={<Avisos />} />
         </Routes>
       </BrowserRouter>

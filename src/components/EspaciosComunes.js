@@ -3,6 +3,7 @@ import feria from '../assets/images/feriaNavideña.jpg'
 
 
 import { Card, Button } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -10,7 +11,7 @@ function EspaciosComunes() {
 
     return (
         <div className='container'>
-
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Reserva de Espacios</h5>
             <div className='row'>
                 <Card
                     className="max-w-sm"
@@ -20,9 +21,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Piscina exterior
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Piscina exterior')}`}>
+                        <Button >
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
                 <Card
                     className="max-w-sm"
