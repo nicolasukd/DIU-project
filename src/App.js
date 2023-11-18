@@ -6,6 +6,7 @@ import Avisos from './components/Avisos'
 import GastosComunes from './components/GastosComunes';
 import EspaciosComunes from './components/EspaciosComunes';
 import SeleccionarHorario from './components/seleccionarHorarios';
+import Proximamente from './components/Proximamente';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/gastosComunes" element={<GastosComunes />} />
           <Route path="/espaciosComunes" element={<EspaciosComunes />} />
           <Route path="/espaciosComunes/:horarios" element={<SeleccionarHorario />} />
-          <Route path="/contact" element={<Avisos />} />
+          <Route path="/ajustes" element={<Proximamente />} />
+          <Route path="/suscripcion" element={<Proximamente />} />
         </Routes>
       </BrowserRouter>
 

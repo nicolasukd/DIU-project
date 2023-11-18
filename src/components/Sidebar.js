@@ -7,7 +7,7 @@ import logo from '../assets/images/logo.png'
 import * as React from 'react';
 import { Unstable_Popup as BasePopup } from '@mui/base/Unstable_Popup';
 import { Sidebar, Button, Card, Label, TextInput } from 'flowbite-react';
-import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiUser, HiViewBoards } from 'react-icons/hi';
+import { HiChartPie, HiUser, HiViewBoards } from 'react-icons/hi';
 
 function Component() {
     const [anchor, setAnchor] = React.useState(null);
@@ -34,24 +34,15 @@ function Component() {
                             <Sidebar.Item href="/gastosComunes" icon={HiViewBoards} >
                                 Gastos comúnes
                             </Sidebar.Item>
-                            <Sidebar.Item href="/visitas" icon={HiInbox}>
-                                Visitas
-                            </Sidebar.Item>
                             <Sidebar.Item href="/espaciosComunes" icon={HiUser}>
                                 Espacios comúnes
                             </Sidebar.Item>
-                            <Sidebar.Item href="#" icon={HiShoppingBag}>
-                                Otra
-                            </Sidebar.Item>
-                            <Sidebar.Item href="#" icon={HiArrowSmRight}>
-                                Otra
-                            </Sidebar.Item>
                         </Sidebar.ItemGroup>
                         <Sidebar.ItemGroup>
-                            <Sidebar.Item href="#" icon={HiChartPie}>
+                            <Sidebar.Item href="/ajustes" icon={HiChartPie}>
                                 Ajustes
                             </Sidebar.Item>
-                            <Sidebar.Item href="#" icon={HiViewBoards}>
+                            <Sidebar.Item href="/suscripcion" icon={HiViewBoards}>
                                 Suscripción
                             </Sidebar.Item>
                         </Sidebar.ItemGroup>
