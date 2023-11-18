@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import feria from '../assets/images/feriaNavideña.jpg';
-import Paginacion from './Paginacion';
+import Paginacion from './paginacion';
 import { Button, Modal } from 'flowbite-react';
 
 function SeleccionarHorario() {

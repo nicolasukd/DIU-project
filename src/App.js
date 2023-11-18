@@ -10,7 +10,7 @@ import SeleccionarHorario from './components/seleccionarHorarios';
 function App() {
   return (
     <div className="App">
-      <div className='Sidebar'>
+      <div >
         <Sidebar />
       </div>
       <BrowserRouter>

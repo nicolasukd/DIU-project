@@ -33,9 +33,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Piscina interior
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Piscina interior')}`}>
+                        <Button style={{ width: "100%" }}>
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
             </div>
 
@@ -47,9 +49,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Salon de eventos
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Salon de eventos')}`}>
+                        <Button style={{ width: "100%" }}>
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
                 <Card
                     className="max-w-sm"
@@ -58,9 +62,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Sala común
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Sala común')}`}>
+                        <Button style={{ width: "100%" }}>
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
             </div>
             <div className='row'>
@@ -71,9 +77,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Quincho
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Quincho')}`}>
+                        <Button style={{ width: "100%" }}>
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
                 <Card
                     className="max-w-sm"
@@ -82,9 +90,11 @@ function EspaciosComunes() {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Patio
                     </h5>
-                    <Button>
-                        Reservar
-                    </Button>
+                    <Link to={`/espaciosComunes/${encodeURIComponent('Patio')}`}>
+                        <Button style={{ width: "100%" }}>
+                            Reservar
+                        </Button>
+                    </Link>
                 </Card>
             </div>
 

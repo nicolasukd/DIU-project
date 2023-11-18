@@ -20,18 +20,18 @@ function Component() {
     const id = open ? 'simple-popup' : undefined;
 
     return (
-        <div>
+        <div >
             <Sidebar aria-label="Default sidebar example" >
                 <Sidebar.Logo href="#" img={logo} imgAlt="logo">
                     App
                 </Sidebar.Logo>
-                <div className='Sidebar'>
+                <div >
                     <Sidebar.Items style={{ textAlign: 'initial' }}>
                         <Sidebar.ItemGroup>
                             <Sidebar.Item href="/avisos" icon={HiChartPie}>
                                 Avisos
                             </Sidebar.Item>
-                            <Sidebar.Item href="/gastosComunes" icon={HiViewBoards} label="3" >
+                            <Sidebar.Item href="/gastosComunes" icon={HiViewBoards} >
                                 Gastos comúnes
                             </Sidebar.Item>
                             <Sidebar.Item href="/visitas" icon={HiInbox}>
@@ -81,7 +81,7 @@ function Component() {
                     </form>
                 </Card>
             </BasePopup>
-        </div>
+        </div >
 
     );
 }
