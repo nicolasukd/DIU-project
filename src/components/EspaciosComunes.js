@@ -15,21 +15,19 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Piscina exterior
                     </h5>
                     <Link to={`/espaciosComunes/${encodeURIComponent('Piscina exterior')}`}>
-                        <Button >
+                        <Button style={{ width: "100%" }}>
                             Reservar
                         </Button>
                     </Link>
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -44,7 +42,6 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -56,7 +53,6 @@ function EspaciosComunes() {
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -70,7 +66,6 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -82,7 +77,6 @@ function EspaciosComunes() {
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
                     imgSrc={feria}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

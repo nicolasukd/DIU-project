@@ -2,7 +2,7 @@ import '../assets/styles/Avisos.css'
 import feria from '../assets/images/feriaNavideña.jpg'
 
 
-import { Card, Button, Modal } from 'flowbite-react';
+import { Card, Modal } from 'flowbite-react';
 import { useState } from 'react';
 
 
@@ -100,9 +100,9 @@ function Avisos() {
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
-                <div className="space-y-6">
+                    <div className="space-y-6">
                         <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                            12/12/2021 12:00   
+                            12/12/2021 12:00
                         </p>
                     </div>
                 </Modal.Footer>

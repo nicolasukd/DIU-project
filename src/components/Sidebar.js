@@ -4,11 +4,10 @@
 import '../assets/styles/Sidebar.css'
 import logo from '../assets/images/logo.png'
 
-import { Outlet, Link } from "react-router-dom";
 import * as React from 'react';
 import { Unstable_Popup as BasePopup } from '@mui/base/Unstable_Popup';
-import { Sidebar, Button, Card, Label, TextInput, Checkbox } from 'flowbite-react';
-import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from 'react-icons/hi';
+import { Sidebar, Button, Card, Label, TextInput } from 'flowbite-react';
+import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiUser, HiViewBoards } from 'react-icons/hi';
 
 function Component() {
     const [anchor, setAnchor] = React.useState(null);
@@ -72,7 +71,7 @@ function Component() {
                             <div className="mb-2 block">
                                 <Label htmlFor="email1" value="Administración" />
                             </div>
-                            <TextInput style={{height:'200px'}} id="large" type="email" sizing={'lg'} />
+                            <TextInput style={{ height: '200px' }} id="large" type="email" sizing={'lg'} />
                         </div>
                         <div className="flex items-center gap-2">
                             <TextInput id="large" type="text" />

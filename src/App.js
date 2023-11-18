@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Link, Route, Routes, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Sidebar from './components/Sidebar'
 import Avisos from './components/Avisos'
 import GastosComunes from './components/GastosComunes';
 import EspaciosComunes from './components/EspaciosComunes';
+import SeleccionarHorario from './components/seleccionarHorarios';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/avisos" element={<Avisos />} />
           <Route path="/gastosComunes" element={<GastosComunes />} />
           <Route path="/espaciosComunes" element={<EspaciosComunes />} />
-          <Route path="/espaciosComunes/:horarios" element={<seleccionarHorario />} />
+          <Route path="/espaciosComunes/:horarios" element={<SeleccionarHorario />} />
           <Route path="/contact" element={<Avisos />} />
         </Routes>
       </BrowserRouter>
