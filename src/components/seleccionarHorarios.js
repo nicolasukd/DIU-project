@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import feria from '../assets/images/feriaNavideña.jpg';
-import Paginacion from './paginacion';
+import Paginacion from './Paginacion';
 import { Button, Modal } from 'flowbite-react';
+
+import piscinaExt from '../assets/images/piscinaExterior.jpg'
+import piscinaInt from '../assets/images/piscinaInterior.jpg'
+import salaComun from '../assets/images/salaComun.jpg'
+import salonEventos from '../assets/images/salonEventos.jpg'
+import quincho from '../assets/images/quincho.jpg'
+import patio from '../assets/images/patio.jpeg'
 
 function SeleccionarHorario() {
     const { horarios } = useParams();
@@ -21,7 +28,7 @@ function SeleccionarHorario() {
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: "100%" }}>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{`Reserva ${horarios}`}</h5>
 
-            <img alt={""} src={feria} style={{ height: "250px", marginTop: "20", marginBottom: "20px" }} />
+            <img alt={""} src={horarios == 'Piscina exterior'? piscinaExt : horarios == 'Piscina interior'? piscinaInt : horarios == 'Sala común'? salaComun : horarios == 'Salon de eventos'? salonEventos : horarios == 'Quincho'? quincho : horarios == 'Patio'? patio : patio} style={{ height: "250px", marginTop: "20", marginBottom: "20px" }} />
             <Paginacion />
             <div style={{
                 display: 'grid',

@@ -1,5 +1,10 @@
 import '../assets/styles/Avisos.css'
-import feria from '../assets/images/feriaNavideña.jpg'
+import piscinaExt from '../assets/images/piscinaExterior.jpg'
+import piscinaInt from '../assets/images/piscinaInterior.jpg'
+import salaComun from '../assets/images/salaComun.jpg'
+import salonEventos from '../assets/images/salonEventos.jpg'
+import quincho from '../assets/images/quincho.jpg'
+import patio from '../assets/images/patio.jpeg'
 
 
 import { Card, Button } from 'flowbite-react';
@@ -15,7 +20,7 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={piscinaExt}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Piscina exterior
@@ -28,7 +33,7 @@ function EspaciosComunes() {
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={piscinaInt}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Piscina interior
@@ -44,7 +49,7 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={salonEventos}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Salon de eventos
@@ -57,7 +62,7 @@ function EspaciosComunes() {
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={salaComun}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Sala común
@@ -72,7 +77,7 @@ function EspaciosComunes() {
             <div className='row'>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={quincho}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Quincho
@@ -85,7 +90,7 @@ function EspaciosComunes() {
                 </Card>
                 <Card
                     className="max-w-sm"
-                    imgSrc={feria}
+                    imgSrc={patio}
                 >
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Patio

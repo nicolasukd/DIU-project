@@ -1,5 +1,9 @@
 import '../assets/styles/Avisos.css'
 import feria from '../assets/images/feriaNavideña.jpg'
+import corte from '../assets/images/corteLuz.jpeg'
+import gato from '../assets/images/gatoPerdido.jpg'
+import aumentoGC from '../assets/images/gastosComunes.jpg'
+import anoNuevo from '../assets/images/anoNuevo.jpg'
 
 
 import { Card, Modal } from 'flowbite-react';
@@ -15,9 +19,9 @@ function Avisos() {
         <>
             <div className='container'>
                 <div className='row'>
-                    <Card className="max-w-sm" imgSrc={feria} horizontal onClick={() => setOpenModal(true)}>
+                    <Card className="max-w-sm" imgSrc={corte} horizontal onClick={() => setOpenModal(true)}>
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Noteworthy technology acquisitions 2021
+                            Corte de luz programado
                         </h5>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
@@ -42,11 +46,11 @@ function Avisos() {
                     <Card
                         className="max-w-sm"
                         imgAlt="Meaningful alt text for an image that is not purely decorative"
-                        imgSrc={feria}
+                        imgSrc={gato}
                         onClick={() => setOpenModal(true)}
                     >
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Feria navideña
+                            Gato perdido 
                         </h5>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
@@ -58,11 +62,11 @@ function Avisos() {
                     <Card
                         className="max-w-sm"
                         imgAlt="Meaningful alt text for an image that is not purely decorative"
-                        imgSrc={feria}
+                        imgSrc={aumentoGC}
                         onClick={() => setOpenModal(true)}
                     >
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Feria navideña
+                            Aumento gastos comunes
                         </h5>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
@@ -71,11 +75,11 @@ function Avisos() {
                     <Card
                         className="max-w-sm"
                         imgAlt="Meaningful alt text for an image that is not purely decorative"
-                        imgSrc={feria}
+                        imgSrc={anoNuevo}
                         onClick={() => setOpenModal(true)}
                     >
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Feria navideña
+                            Actividades año nuevo
                         </h5>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
